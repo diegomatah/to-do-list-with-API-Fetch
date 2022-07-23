@@ -2,7 +2,7 @@
     width: 500px;
     min-height: 500px;
     padding: 10px 20px ;
-    background-color: lightblue;
+    background-color: #00FFFF;
     border: 1px solid black;
 }
 .Header{
@@ -16,6 +16,8 @@
 }
 .form-input{
     width: 370px;
+    border-radius: 10px;
+    background-color: white;
 }
 .Lista1{
     width: 100%;
@@ -26,9 +28,19 @@
     margin: 10px 20px 10px 0;
     display: flex;
     justify-content: space-between;
+    border-radius: 10px;
 }
 .pendiente{
     height: 75%;
     display: flex;
     align-items: flex-end;
+}
+.todo-button{
+    border-radius: 10px;
+    background-color: white;
+}
+.todo-button2{
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: white;
 }

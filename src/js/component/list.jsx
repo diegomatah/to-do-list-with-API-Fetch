@@ -7,7 +7,7 @@ const List = (props) => {
     };
     return (
         <div className="List">
-       <span>{props.list.label}</span><button onClick={borrarTarea}>X</button>
+       <span>{props.list.label}</span><button className="todo-button2" onClick={borrarTarea}>X</button>
       </div>
   );
 };
