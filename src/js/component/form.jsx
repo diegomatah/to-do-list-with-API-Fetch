@@ -3,16 +3,17 @@ import React, { useState } from "react";
 
 function Form (props) {
   const [tarea, setTarea] = useState("");
-  
+
  const formulario = (event) => {
-  setTarea(event.target.value)
- }
+  setTarea({label: event.target.value, done: false});
+ };
+console.log (tarea);
 
  const submit = (event) => {
   event.preventDefault();
   props.nuevaTarea(tarea);
   setTarea("");
- }
+ };
   return (
     <div className="form-div">
       <form className="form" onSubmit={submit}>

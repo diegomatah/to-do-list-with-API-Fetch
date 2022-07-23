@@ -1,16 +1,16 @@
-import React from "react"
+import React from "react";
 
 
 const List = (props) => {  
     const borrarTarea = ()=> {
         props.borrar(props.id);
-    }
+    };
     return (
-        <div class="List">
-       <span>{props.list}</span><button onClick={borrarTarea}>X</button>
+        <div className="List">
+       <span>{props.list.label}</span><button onClick={borrarTarea}>X</button>
       </div>
   );
-}
+};
 
 
 export default List;
