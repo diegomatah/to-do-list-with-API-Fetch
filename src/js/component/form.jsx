@@ -20,7 +20,7 @@ console.log (tarea);
         <input className="form-input"
           type="text"
           onChange={formulario}
-          placeholder="¿Qué debo hacer?" value={tarea}
+          placeholder="¿Qué debo hacer?" value={tarea.label}
         />
         <button className="todo-button"> Agregar</button>
       </form>

@@ -34,6 +34,7 @@ useEffect(()=>{
     .catch((error) => console.log("error", error));
 
   const nuevaTarea = (actividad) => {
+    console.log(actividad);
     setlistaTareas([actividad, ...listaTareas]);
   };
 
